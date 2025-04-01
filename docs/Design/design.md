@@ -6,7 +6,7 @@ This page includes a short description of the overall architecture style of the 
 
 This is a short description of the architecture.
 
-![Architecture](/w24project-abtn_herconnect/images/architecture/layout/architecture_diagram.jpg)
+![Architecture](/triadtutors/images/architecture/layout/architecture_diagram.jpg)
 
 !!! note
     There are two businesses layers present to deliver this product. The client server has an instance of a product called WordPress which is an application for the delivery a website or blog. Our plugin is connected to the business logic layer of WordPress, and Wordpress then injects our code when WordPress delivers the website to the clients browser. 
@@ -107,31 +107,31 @@ and verify at <https://editor.swagger.io/>.
 
 ## Continuous Integration and Continuous Deployment
 
-- [Automated Tests](https://github.com/UAlberta-CMPUT401/w24project-abtn_herconnect/actions/workflows/automated_testing.yml) - Automatically runs all the testing (Django, Plugin and Admin) when you push or pull-request into main or Sprint_5. When one or more of the tests fail the job fails.
-- [Continuous Deployment](https://github.com/UAlberta-CMPUT401/w24project-abtn_herconnect/actions/workflows/deploy.yml) - Automatically deploys all the code from main branch when you push or pull-request into main
+- [Automated Tests](https://github.com/UAlberta-CMPUT401/triadtutors/actions/workflows/automated_testing.yml) - Automatically runs all the testing (Django, Plugin and Admin) when you push or pull-request into main or Sprint_5. When one or more of the tests fail the job fails.
+- [Continuous Deployment](https://github.com/UAlberta-CMPUT401/triadtutors/actions/workflows/deploy.yml) - Automatically deploys all the code from main branch when you push or pull-request into main
 
 ## ER Diagram
 
 This is a short description of logical entities of the domain in a ER diagram.
 
-![ER](/w24project-abtn_herconnect/images/ER_diagram.jpg)
+![ER](/triadtutors/images/ER_diagram.jpg)
 
 ## Sequence Diagrams
 
-![Sequence](/w24project-abtn_herconnect/images/architecture/sequence_diagrams/sequence_diagrams.jpg)
+![Sequence](/triadtutors/images/architecture/sequence_diagrams/sequence_diagrams.jpg)
 
 ## User Interface Wireframes
 !!! note
     Click on the images to expand them for a closer look.
 ### Open the Site
-![Open the site](/w24project-abtn_herconnect/images/architecture/UI/open_the_site.png)
+![Open the site](/triadtutors/images/architecture/UI/open_the_site.png)
 !!! info
     - US 1.01 - Chatbot Access
-![After clicking the chatbot icon](/w24project-abtn_herconnect/images/architecture/UI/after_clicking_the_chat_icon.png)
+![After clicking the chatbot icon](/triadtutors/images/architecture/UI/after_clicking_the_chat_icon.png)
 
 
 ### General Flow
-![Chatbot general flow](/w24project-abtn_herconnect/images/architecture/UI/chatbot_general_flow.png)
+![Chatbot general flow](/triadtutors/images/architecture/UI/chatbot_general_flow.png)
 
 !!! info
     - US 1.02 - Multilingual Text Conversation
@@ -142,27 +142,27 @@ This is a short description of logical entities of the domain in a ER diagram.
     - US 2.03 - Start Over
 
 ### Chatbot Conversation Rating
-![Chatbot general flow](/w24project-abtn_herconnect/images/architecture/UI/chatbot_general_flow.png)
-![Getting a rating](/w24project-abtn_herconnect/images/architecture/UI/getting_a_rating.png)
-![Less than two star review](/w24project-abtn_herconnect/images/architecture/UI/less_or_equal_to_two_stars_review.png)
+![Chatbot general flow](/triadtutors/images/architecture/UI/chatbot_general_flow.png)
+![Getting a rating](/triadtutors/images/architecture/UI/getting_a_rating.png)
+![Less than two star review](/triadtutors/images/architecture/UI/less_or_equal_to_two_stars_review.png)
 !!! info
     - US 3.01 - Negative feedback
-![Three star review](/w24project-abtn_herconnect/images/architecture/UI/3_star_review.png)
-![Four star or more review](/w24project-abtn_herconnect/images/architecture/UI/4_or_more_star_review.png)
+![Three star review](/triadtutors/images/architecture/UI/3_star_review.png)
+![Four star or more review](/triadtutors/images/architecture/UI/4_or_more_star_review.png)
 !!! info
     - US 3.02 - Positive feedback
 
 ### Chatbot After Review
-![After review](/w24project-abtn_herconnect/images/architecture/UI/chatbot_after_any_review.png)
+![After review](/triadtutors/images/architecture/UI/chatbot_after_any_review.png)
 !!! info
     - US 3.03 - Customer Service Redirect
     - US 3.04 - User Followup
-![Invalid email entry](/w24project-abtn_herconnect/images/architecture/UI/invalid_email_entered.png)
+![Invalid email entry](/triadtutors/images/architecture/UI/invalid_email_entered.png)
 !!! info
     - US 3.04 - User Followup
 
 ### Chatbox Closed by User
-![Chatbox closed by user](/w24project-abtn_herconnect/images/architecture/UI/chatbot_is_closed.png)
+![Chatbox closed by user](/triadtutors/images/architecture/UI/chatbot_is_closed.png)
 !!! info
     - US 2.03 - Start Over
 
@@ -170,21 +170,21 @@ This is a short description of logical entities of the domain in a ER diagram.
 
 ### User Control and Freedom
 
-![show User_Control_Freedom](/w24project-abtn_herconnect/images/User_Control_Freedom.png)
+![show User_Control_Freedom](/triadtutors/images/User_Control_Freedom.png)
 Screen 1: User Control and Freedom
 
 Our chat interface features a convenient dropdown menu, accessible via an easily noticeable icon, offering undo and start-over options for streamlined navigation. The undo lets users revisit the previous conversation step, while start-over resets the chat. Additionally, an minimize button next to the dropdown provides flexibility to minimize the chat as needed.
 
 ### Recognition Rather than Recall
 
-![show Recognition_Recall](/w24project-abtn_herconnect/images/Recognition_Recall.png)
+![show Recognition_Recall](/triadtutors/images/Recognition_Recall.png)
 Screen 2: Recognition Rather than Recall
 
 The HERBot interface simplifies interaction by displaying messages that confirm user selections, eliminating the need for memory recall and enhancing navigation with immediate, clear feedback.
 
 ### Aesthetic and Minimalist Design
 
-![show Aesthetic_Design](/w24project-abtn_herconnect/images/Aesthetic_Design.png)
+![show Aesthetic_Design](/triadtutors/images/Aesthetic_Design.png)
 
 Screen 3: Aesthetic and Minimalist Design
 
@@ -192,14 +192,14 @@ The HERBot interface boasts a minimalist design, enhanced by a modern color sche
 
 ### Contrast
 
-![show Contrast](/w24project-abtn_herconnect/images/Contrast.png)
+![show Contrast](/triadtutors/images/Contrast.png)
 Screen 4: Contrast
 
 Our chat interface enhances user interaction with distinctive contrast techniques, especially for selection options. When users hover over their choices, the highlighted options ensure clarity and focus, facilitating a seamless selection process. This visual feedback is critical in guiding users through their conversational journey, allowing for intuitive navigation and decision-making within the chat environment.
 
 ### Alignment
 
-![show Alignment](/w24project-abtn_herconnect/images/Alignment.png)
+![show Alignment](/triadtutors/images/Alignment.png)
 Screen 5: Alignment
 
 Our chat interface embraces Alignment, with text left-aligned within bubbles for clarity, and user selections organized in a column layout for ease of use, ensuring a visually coherent and efficient interaction experience.
@@ -210,7 +210,7 @@ Our chat interface utilizes the Proximity principle by placing user selections a
 
 ### Error Prevention
 
-![show Error_Prevention](/w24project-abtn_herconnect/images/Error_Prevention.png)
+![show Error_Prevention](/triadtutors/images/Error_Prevention.png)
 Screen 6: Error Prevention
 
 The HERBot interface prioritizes Error Prevention by providing feedback when users enter invalid email addresses, preventing potential errors and guiding users to correct their input. This proactive approach enhances user experience by ensuring seamless interaction and reducing frustration.

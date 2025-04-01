@@ -3,7 +3,7 @@
 This page provides a general overview of the assigned tasks and roles for the duration of five sprints (subject to change).
 
 ## Story Map
-[![StoryMap](/w24project-abtn_herconnect/images/CMPUT401_ABTN_Story_Map.jpg)](/w24project-abtn_herconnect/images/CMPUT401_ABTN_Story_Map.jpg)
+[![StoryMap](/triadtutors/images/CMPUT401_ABTN_Story_Map.jpg)](/triadtutors/images/CMPUT401_ABTN_Story_Map.jpg)
 
 
 ## Project Plan

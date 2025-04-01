@@ -3,7 +3,7 @@
 This page provides an overview of the team and its members.
 
 ## Team Canvas
-[![TeamCanvas](/w24project-abtn_herconnect/images/team-canvas.jpg)](/w24project-abtn_herconnect/images/team-canvas.jpg)
+[![TeamCanvas](/triadtutors/images/team-canvas.jpg)](/triadtutors/images/team-canvas.jpg)
 
 ## Scrum Roles
 ### Frontend Developer
