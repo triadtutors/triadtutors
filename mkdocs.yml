@@ -1,5 +1,5 @@
 site_name: Triad Tutors
-site_url: https://github.com/triadtutors/triadtutors
+site_url: https://triadtutors.github.io/triadtutors/
 
 plugins:
   - glightbox
