@@ -1,0 +1,16 @@
+site_name: HERConnect Chatbot Project
+site_url: https://github.com/triadtutors/triadtutors
+
+plugins:
+  - glightbox
+
+theme:
+  name: material
+  icon:
+    admonition:
+      info: material/hand-pointing-up
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
